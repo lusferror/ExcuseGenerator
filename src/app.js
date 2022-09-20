@@ -1,11 +1,10 @@
 /* eslint-disable */
-//import "bootstrap";
-//import "./style.css";
+import "bootstrap";
+import "./style.css";
+import "./assets/img/rigo-baby.jpg";
+import "./assets/img/4geeks.ico";
 
-// import "./assets/img/rigo-baby.jpg";
-// import "./assets/img/4geeks.ico";
-
-window.onload = function () {
+window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
   let who = ["The dog", "My grandma", "His turtle", "My bird"];
@@ -37,5 +36,3 @@ window.onload = function () {
   var excusa = generadorDeExcusas(who, action, what, when);
   document.getElementById("excuse").innerHTML = excusa;
 };
-
-
